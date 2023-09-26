@@ -1,8 +1,13 @@
-.custom-text{
-    padding-left: 50px;
-    padding-right: 50px;
-}
+body {
+    background: linear-gradient(#cb72c2, #ff8fc7, #ffd1c4) !important;
+    color: #000 !important;    
 
+    .custom-text{
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+
+}
 
 
 @media (min-width: 768px) {

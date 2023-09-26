@@ -1,14 +1,14 @@
 import './Home.scss';
-import top from '../../assets/img/top-element.png';
+
 
 
 export const Home =() => {
 
     return (
        <>
-        <div class="tab-content">
-          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-            <div className="relative isolate px-6 pt-14 lg:px-8">
+        {/* <div class="tab-content">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"> */}
+            <div className="relative isolate px-6 pt-14 lg:px-8 tab-content">
             <div
               className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
               aria-hidden="true"
@@ -45,8 +45,8 @@ export const Home =() => {
             >
             </div>
           </div>
-        </div>
-      </div>  
+        {/* </div>
+      </div>   */}
 
     </> 
 
