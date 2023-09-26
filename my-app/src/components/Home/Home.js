@@ -18,8 +18,8 @@ export const Home =() => {
             <div className="middle-element"></div>
             <div className="bottom-element"></div>
             <div className="custom-text mx-auto max-w-2xl py-32 sm:py-48 lg:py-56 lg:float-left sm:float-center">
-              <div className="hidden sm:mb-8 sm:flex sm:justify-center"></div>
-              <div className="text-center">
+              {/* <div className="hidden sm:mb-8 sm:flex sm:justify-center"></div> */}
+              <div className="text-center text-div">
                 <p className="mt-6 text-lg font-bold leading-8 text-gray-600">
                   Hi,
                 </p>

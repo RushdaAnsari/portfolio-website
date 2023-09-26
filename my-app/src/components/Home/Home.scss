@@ -1,10 +1,24 @@
 body {
-    background: linear-gradient(#cb72c2, #ff8fc7, #ffd1c4) !important;
-    color: #000 !important;    
+    background: linear-gradient(#cb72c2 5%, #ff8fc7, #ffd6ca, #fdf0e6, #fbf1ef) !important;
+    color: #000 !important;  
+    
 
     .custom-text{
       padding-left: 50px;
       padding-right: 50px;
+      text-decoration: none;
+      position: relative;
+      left: 24px;
+
+      a{
+        text-decoration: none;
+      }
+
+    .text-div{
+      position: relative;
+      top: -54px;
+      
+    }  
   }
 
 }
@@ -14,4 +28,13 @@ body {
     .custom-text {
       float: left;
     }
+  }
+
+@media (max-width: 576px){
+    
+      .text-div{
+        left: -24px;
+
+      }
+    
   }
