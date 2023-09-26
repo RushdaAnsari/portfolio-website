@@ -1,0 +1,12 @@
+.custom-text{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+@media (min-width: 768px) {
+    .custom-text {
+      float: left;
+    }
+  }

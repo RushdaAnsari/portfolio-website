@@ -29,20 +29,21 @@
     scroll-behavior: smooth;
     scroll-padding-top: 75px;
 
-    // body{
-    //   font-weight: 400;
-    //   overflow-x: hidden;
-    //   position: relative;
-    //   background-color: pink !important;
-    //   color: #000 !important;
-    //   font-family: 'Centra', sans-serif !important;
+    body{
+      font-weight: 400;
+      overflow-x: hidden;
+      position: relative;
+      background: linear-gradient(#cb72c2, #ff8fc7, #ffd1c4) !important;
+      color: #000 !important;
+      font-family: 'Centra', sans-serif !important;
 
-    //   h1, h2, h3, h4, h5, h6{
-    //     margin: 0;
-    //     padding: 0;
-    //     line-height: normal;
-    //   }
-    // }
+      h1, h2, h3, h4, h5, h6{
+        margin: 0;
+        padding: 0;
+        line-height: normal;
+      }
+
+    }
   }
 
 
