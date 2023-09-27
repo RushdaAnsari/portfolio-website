@@ -1,5 +1,4 @@
 .tab-content {
-   
     color: #000 !important;  
     
 
@@ -9,17 +8,25 @@
       text-decoration: none;
       position: relative;
       left: 80px;
+      
 
       a{
         text-decoration: none;
       }
 
+      #name{
+        color: #Ff3131;
+        font-size: 50px;
+      }
+
     .text-div{
-      position: relative;
-      top: -54px;
-      text-align: left;
       
+      position: relative;
+      top: -154px;
+      text-align: left;
     }  
+
+    
   }
 
 }

@@ -4,7 +4,7 @@ export const TechStack = () => {
     return (
         <>
         <div className='tool' id="techstack">
-                <h1 className="text-4xl mb-4">Tools</h1>
+                <h1 className="text-4xl mb-4 py-3">Tools & Technologies</h1>
                 <div className=' flex flex-wrap justify-center img-container'>
                     <div className="img-holder">
                     <img className='icon' src={'https://www.svgrepo.com/show/353884/html-5.svg'} alt="html" fluid/>

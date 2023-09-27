@@ -13,7 +13,7 @@ export const NavLinks = () => {
       <Tab eventKey="home" title="Home"></Tab>
       <Tab eventKey="abouts" title="About"></Tab>
       <Tab eventKey="projects" title="Projects"></Tab>
-      <Tab eventKey="contact" title="Contact"></Tab>
+      {/* <Tab eventKey="contact" title="Contact"></Tab> */}
     </Tabs>
   );
 }

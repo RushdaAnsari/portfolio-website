@@ -35,7 +35,7 @@
       position: relative;
       //background: linear-gradient(#cb72c2 5%, #ff8fc7, #ffd6ca, #fdf0e6, #fbf1ef) !important;
       // color: #000 !important;
-      background-color: rgb(237, 237, 229);
+      //background-color: rgb(237, 237, 229);
       font-family: 'Centra', sans-serif !important;
 
       h1, h2, h3, h4, h5, h6{
@@ -51,6 +51,8 @@
 
 .App {
   text-align: center;
+  background-color: rgb(237, 237, 229);
+
 }
 
 .App-logo {
