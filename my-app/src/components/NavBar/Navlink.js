@@ -11,7 +11,7 @@ export const NavLinks = () => {
       fill
     >
       <Tab eventKey="home" title="Home"></Tab>
-      <Tab eventKey="skills" title="Skills"></Tab>
+      <Tab eventKey="abouts" title="about-page"></Tab>
       <Tab eventKey="projects" title="Projects"></Tab>
       <Tab eventKey="contact" title="Contact"></Tab>
     </Tabs>

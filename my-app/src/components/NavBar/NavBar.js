@@ -10,7 +10,7 @@ export const NavBar = () => {
 
     const navigation = [
       { name: 'Home', href: '#' },
-      { name: 'Skills', href: '#' },
+      { name: 'about-page', href: '#' },
       { name: 'Projects', href: '#' },
       { name: 'Contact', href: '#' },
     ]

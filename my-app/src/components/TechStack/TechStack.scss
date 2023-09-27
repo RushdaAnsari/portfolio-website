@@ -1,0 +1,58 @@
+
+.tool{
+    h1{
+        margin-bottom: 20px;
+        
+    }
+
+    .img-container{
+        gap: 2%;
+        display: flex;
+        margin: 0 10px 0 10px;
+    
+        .img-holder{
+            padding: 8px;
+
+            .icon{
+                width: 100px;
+                height: 150px;
+            }
+        }
+        
+    }
+
+}
+
+@media (max-width: 889px){  //laptop screen
+    .tool .img-container .img-holder .icon{
+        height: 100px;
+    }
+}
+
+@media (max-width: 576px){ //tablet / mobile screen 
+    .tool {
+    
+    .img-container {
+        gap: 2%;
+        margin: 0 10px 0 10px;
+
+    .img-holder{
+        width: 10vw;
+        height: 70px;
+
+
+        .icon{
+            width: 100%;
+            height: 30px;
+        }
+
+        span{
+            width: 100%;
+            
+            font-size: 8px;
+        }
+    } 
+} 
+}
+}
+
