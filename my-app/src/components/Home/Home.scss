@@ -1,5 +1,5 @@
-body {
-    // background: linear-gradient(#cb72c2 5%, #ff8fc7, #ffd6ca, #fdf0e6, #fbf1ef) !important;
+.tab-content {
+   
     color: #000 !important;  
     
 
@@ -8,7 +8,7 @@ body {
       padding-right: 50px;
       text-decoration: none;
       position: relative;
-      left: 24px;
+      left: 80px;
 
       a{
         text-decoration: none;
@@ -17,6 +17,7 @@ body {
     .text-div{
       position: relative;
       top: -54px;
+      text-align: left;
       
     }  
   }
