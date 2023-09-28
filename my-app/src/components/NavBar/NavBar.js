@@ -9,10 +9,10 @@ export const NavBar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     const navigation = [
-      { name: 'Home', href: '#' },
-      { name: 'about-page', href: '#' },
-      { name: 'Projects', href: '#' },
-      { name: 'Contact', href: '#' },
+      { name: 'Home', href: '#home' },
+      { name: 'About', href: '#about' },
+      { name: 'Skills', href: '#techstack' },
+      { name: 'Projects', href: '#projects' },
     ]
 
 
@@ -20,9 +20,9 @@ export const NavBar = () => {
 
     <div className="main">
       
-      <header className="absolute inset-x-0 top-0 z-50">
-        <nav className="flex items-center justify-between p-4 lg:px-8" aria-label="Global">
-          <div className="flex lg:flex-1">
+      <header className="flex items-center justify-center lg:fixed bg-[#EDEDE5] inset-x-0 top-0 z-50">
+        <nav className="flex items-center flex-wrap lg:px-8" aria-label="Global">
+          {/* <div className="flex ">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img
@@ -31,8 +31,9 @@ export const NavBar = () => {
                 alt=""
               />
             </a>
-          </div>
-          <div className="flex lg:hidden">
+          </div> */}
+          
+          <div className="flex lg:hidden nav-collapse absolute right-[65px] top-[50px]">
             <button
               type="button"
               className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
@@ -45,6 +46,7 @@ export const NavBar = () => {
           <div className="hidden lg:flex lg:gap-x-12 px-1">
             <NavLinks/>
           </div>
+         
         
         </nav>
          <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -85,7 +87,7 @@ export const NavBar = () => {
             </div>
           </Dialog.Panel>
         </Dialog>
-      </header>
+      </header>        
     </div> 
 
   )

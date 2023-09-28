@@ -15,7 +15,7 @@ export const About = () => {
         >
             <div className="about-paragraph flex flex-col gap-2 text-lg py-2 px-2">
             <p className='py-3'>
-                Hi! My name is Rushda. And I am a self-taught{" "} 
+                Welcome, My name is Rushda. <br/> I am a self-taught{" "} 
                 <span className="font-bold text-accent">Front-end Developer.</span> 
             </p>
             <p className="flex intro py-3 px-3">

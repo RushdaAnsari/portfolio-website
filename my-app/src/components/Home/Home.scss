@@ -1,29 +1,20 @@
 .tab-content {
-    color: #000 !important;  
+    //color: #000 !important;  
     
 
     .custom-text{
-      padding-left: 50px;
-      padding-right: 50px;
-      text-decoration: none;
-      position: relative;
-      left: 80px;
+      font-family: FeFCrm2;
+      color: #Ff3131;
+      //color: #ffc107;
+      font-size: 100px;
+      line-height: 6rem;
       
 
-      a{
-        text-decoration: none;
-      }
-
-      #name{
-        color: #Ff3131;
-        font-size: 50px;
-      }
-
-    .text-div{
       
-      position: relative;
-      top: -154px;
-      text-align: left;
+      
+
+    .text-container{
+      
     }  
 
     
@@ -32,17 +23,20 @@
 }
 
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+  .text-container{
+    display: flex;
+
     .custom-text {
-      float: left;
+      font-size: 80px;
+    }
     }
   }
 
-@media (max-width: 576px){
+// @media (max-width: 576px){
     
-      .text-div{
-        left: -24px;
-
-      }
+//   .custom-text {
+//     font-size: calc(font-size - 40px);
+//   }
     
-  }
+//   }

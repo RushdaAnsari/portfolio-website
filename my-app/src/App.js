@@ -5,6 +5,7 @@ import { Home } from './components/Home/Home';
 import { About } from './components/About/About';
 import { TechStack } from './components/TechStack/TechStack';
 import { Projects } from './components/Projects/Projects';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
 function App() {
