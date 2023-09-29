@@ -6,7 +6,11 @@ export const Home =() => {
 
     return (
        <>
-            <div id='home' className="flex relative isolate px-6 lg:px-8 tab-content">
+        <div className='flex mx-auto w-full justify-end items-center page-number absolute h-5 z-60 top-[115px]'>
+          <p className='flex font-bold text-[#a09881] text-[50px] px-5'>01</p>
+        </div>
+
+            <section id='home' className="flex relative isolate px-6 lg:px-8 tab-content mb-5">
                          
             <div
               className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
@@ -44,7 +48,7 @@ export const Home =() => {
               aria-hidden="true"
             >
             </div>
-          </div>
+          </section>
           
     </> 
 

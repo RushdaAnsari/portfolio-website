@@ -5,9 +5,10 @@
     //     margin-bottom: 20px;
         
     // }
+    
 
     .img-container{
-        gap: 2%;
+        gap: 1.5%;
         display: flex;
         margin: 0 10px 0 10px;
     
@@ -15,11 +16,12 @@
             padding: 8px;
 
             .icon{
-                width: 80px;
-                height: 100px;
+                width: 60px;
+                height: auto;
             }
             .caption{
-                color: grey !important;
+                color: rgb(0, 0, 0) !important;
+                font-size: 10px;
             }
         }
         

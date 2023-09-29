@@ -1,40 +1,43 @@
-import Tab from 'react-bootstrap/Tab';
-import Tabs from 'react-bootstrap/Tabs';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import { NavLink } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Navbar from 'react-bootstrap/Navbar';
 import './NavBar.scss';
 
 
 
+
 export const NavBar = () => {
+  
 
   return (
         <>
-            <div className="main w-full">
+            <div className="main w-full fixed flex items-center justify-center fixed bg-[#EDEDE5] inset-x-0 top-0 py-0 z-30">
               
-              <header className="flex items-center justify-center fixed bg-[#EDEDE5] inset-x-0 top-0 z-50">
-                <nav className="flex items-center flex-wrap lg:px-8" aria-label="Global">
-                        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-                        <div class="text-sm lg:flex-grow lg:h-[50px] lg:mt-[5px]">
-                    
-                        <Tabs
-                          defaultActiveKey="home"
-                          id="fill-tab-example"
-                          className="mb-2 mt-2 custom-tabs"
-                          fill
-                        >
-                          <Tab Link='/' className="block mt-4 lg:inline-block lg:mt-0 mr-4" eventKey="home" title="Home"></Tab>
-                          <Tab Link='/about' className="block mt-4 lg:inline-block lg:mt-0 mr-4" eventKey="about" title="About"></Tab>
-                          <Tab Link='/techstack' className="block mt-4 lg:inline-block lg:mt-0 mr-4" eventKey="techstack" title="Skills"></Tab>
-                          <Tab Link='/projects' className="block mt-4 lg:inline-block lg:mt-0" eventKey="projects" title="Projects"></Tab>
-                          
-                        </Tabs>
-                      </div>
-                    </div>
-                </nav>
-              </header>     
+             
+                         <Navbar>
+                            <Container className='mb-0 w-full'>
+                              <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                              <Navbar.Collapse id="basic-navbar-nav">
+                                <Nav className="mx-auto mt-2">
+                                  <NavLink href='/' className= 'nav-link px-[30px]'>Home</NavLink>
+                                  <NavLink href='#about' className= 'nav-link px-[30px]'>About</NavLink>
+                                  <NavLink href='#techstack' className= 'nav-link px-[30px]'>Skills</NavLink>
+                                  <NavLink href='#projects' className= 'nav-link px-[30px]'>Projects</NavLink>
+                                  </Nav>
+                                </Navbar.Collapse>
+                              </Container>
+                            </Navbar>
+                      
             </div> 
 
+
+           
+            
+          
           
           </>
 
   )
-}
+              }

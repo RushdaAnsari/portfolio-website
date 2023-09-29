@@ -1,5 +1,6 @@
 .container{
         margin-bottom: 40px;
+        width: 70%;
          
             
         .card{
@@ -7,7 +8,7 @@
             --bs-card-spacer-x: 1rem;
             --bs-card-title-spacer-y: 0.5rem;
             --bs-card-border-width: 2px;
-            --bs-card-border-color: brown;
+            //--bs-card-border-color: brown;
            // --bs-card-border-radius: 23px;
             --bs-card-cap-padding-y: 0.5rem;
             --bs-card-cap-padding-x: 1rem;
@@ -15,20 +16,20 @@
             height: 100%;
             // width: 230px;
             // height: 250px;
-            background-color: transparent;
+            background-color: floralwhite;
+            border: 1px solid black;
             
-            .card-img-top{
-                
-                
-            }
-            
-
+           
             .card-body{
 
                 padding: 2px;
                 
+                .btn{
+                    font-size: 12px;
+                }
                 .card-title{
                     padding-bottom: 10px;
+                    font-size: 12px;
                     }
                 
                 .logo-holder{
