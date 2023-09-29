@@ -2,6 +2,43 @@
 
     background-color: #EDEDE5;
     z-index: 999;
-
+            
+          .nav-tabs{
+            --bs-nav-tabs-border-width: 0; /* Disable border width */
+            --bs-nav-tabs-border-color: #BDBDBD; /* Disable border color */
+            --bs-nav-tabs-border-radius: 0; /* Disable border radius */
+            --bs-nav-tabs-link-hover-border-color: #BDBDBD; /* Disable hover border color */
+            --bs-nav-tabs-link-active-color: #BDBDBD; /* Revert active link color to the default */
+            --bs-nav-tabs-link-active-bg: #EDEDE5; /* Revert active link background color to the default */
+            --bs-nav-tabs-link-active-border-color: #BDBDBD; /* Revert active link border color to the default */
+            border-bottom: 0; /* Disable the bottom border */
+          }
+        
+           .nav-link {
+              margin-bottom: 0;
+              border: none;
+              color: #BDBDBD; 
+              background-color: #EDEDE5;
+              padding: 10px 30px 10px 30px;
+        
+          }
+        
+          .nav-link.active {
+            color: #757575;
+            background-color: none; 
+          }
+        
+        
+}
+          
+        
+            
+            
+        
+        
+        
+        
+        
+          
     
-}    
+   

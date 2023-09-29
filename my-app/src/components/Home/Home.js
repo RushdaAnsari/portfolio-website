@@ -6,15 +6,17 @@ export const Home =() => {
 
     return (
        <>
-            <div id='home' className="flex relative isolate px-6 pt-14 lg:px-8 tab-content">
+            <div id='home' className="flex relative isolate px-6 lg:px-8 tab-content">
+                         
             <div
               className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
               aria-hidden="true"
             >
             </div>
             
+            
             <div className="text-container lg:mx-[100px] sm:mx-[2px] py-28 sm:py-48 lg:py-56 lg:float-left sm:float-center">
-
+            
               <div className="text-left">
                 <h1 className="custom-text font-bold text-gray-600 text-4xl sm:text-6xl lg:text-[100px] lg:leading-[6rem]">
                   Web <br/> Developer
@@ -34,6 +36,7 @@ export const Home =() => {
                   </a>
                 </div>
               </div>
+              
               
             </div>
             <div

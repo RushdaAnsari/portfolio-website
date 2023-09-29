@@ -3,8 +3,12 @@ import './TechStack.scss'
 export const TechStack = () => {
     return (
         <>
-        <div className='tool' id="techstack">
-                <h1 className="text-4xl mb-4 py-3">Tools & Technologies</h1>
+        <div className='flex mx-auto w-full justify-end items-center page-number absolute h-5 z-0'>
+            <p className='flex text-bold text-[#a09881] text-[50px] px-5'>03</p>
+        </div>
+        <div className='tool my-3 lg:py-48 py-28' id="techstack">
+            
+                <h1 className="text-4xl mb-4">Tools & Technologies</h1>
                 <div className=' flex flex-wrap justify-center img-container'>
                     <div className="img-holder">
                     <img className='icon' src={'https://www.svgrepo.com/show/353884/html-5.svg'} alt="html" fluid/>
