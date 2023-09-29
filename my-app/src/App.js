@@ -1,10 +1,10 @@
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { NavBar } from "./components/NavBar/NavBar.js";
-import { Home } from './components/Home/Home.js';
-import { About } from './components/About/About.js';
-import { TechStack } from './components/TechStack/TechStack.js';
-import { Projects } from './components/Projects/Projects.js';
+import { NavBar } from "./components/NavBar/NavBar.jsx";
+import { Home } from './components/Home/Home.jsx';
+import { About } from './components/About/About.jsx';
+import { TechStack } from './components/TechStack/TechStack.jsx';
+import { Projects } from './components/Projects/Projects.jsx';
 
 
 
