@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.649c2357.css",
+    "main.js": "/portfolio-website/static/js/main.90977aa2.js",
+    "static/js/787.28cb0dcd.chunk.js": "/portfolio-website/static/js/787.28cb0dcd.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio-website/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fa-solid-900.ttf": "/portfolio-website/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/fa-brands-400.ttf": "/portfolio-website/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fontawesome-webfont.eot": "/portfolio-website/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/portfolio-website/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fa-solid-900.woff2": "/portfolio-website/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/FeFCit2.ttf": "/portfolio-website/static/media/FeFCit2.0153f95a100ea946a7c9.ttf",
+    "static/media/fa-brands-400.woff2": "/portfolio-website/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/FeFCrm2.ttf": "/portfolio-website/static/media/FeFCrm2.2716c15e654ef3739f0f.ttf",
+    "static/media/FeFCsc2.ttf": "/portfolio-website/static/media/FeFCsc2.fba6affc55f4152180fb.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/portfolio-website/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/sketch.JPG": "/portfolio-website/static/media/sketch.2cd731f5574a3aa85973.JPG",
+    "static/media/trello-clone-capture.JPG": "/portfolio-website/static/media/trello-clone-capture.573a2cb344ac46f67d0b.JPG",
+    "static/media/quiz.JPG": "/portfolio-website/static/media/quiz.c34ee835061fb17afd86.JPG",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfolio-website/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/fa-regular-400.ttf": "/portfolio-website/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/calculator.JPG": "/portfolio-website/static/media/calculator.16ac449eeb3ab38986ae.JPG",
+    "static/media/fa-regular-400.woff2": "/portfolio-website/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/fa-v4compatibility.ttf": "/portfolio-website/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/portfolio-website/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "/portfolio-website/index.html",
+    "main.649c2357.css.map": "/portfolio-website/static/css/main.649c2357.css.map",
+    "main.90977aa2.js.map": "/portfolio-website/static/js/main.90977aa2.js.map",
+    "787.28cb0dcd.chunk.js.map": "/portfolio-website/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.649c2357.css",
+    "static/js/main.90977aa2.js"
+  ]
+}
