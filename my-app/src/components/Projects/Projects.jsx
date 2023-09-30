@@ -2,7 +2,7 @@ import './Projects.scss';
 import calculator from '../../assets/img/calculator.JPG';
 import quiz from '../../assets/img/quiz.JPG';
 import sketch from '../../assets/img/sketch.JPG';
-import taskflow from '../../assets/img/taskflow.JPG';
+import taskflow from '../../assets/img/trello-clone-capture.JPG';
 import {Card} from 'react-bootstrap';
 import 'font-awesome/css/font-awesome.min.css';
 
@@ -26,7 +26,7 @@ export const Projects = () => {
                                     <Card className="card mb-[10px]">
                                         <img className='card-img-top' src={taskflow} alt=""/>
                                         <div className="card-body">
-                                            <h5 className="card-title font-bold">Project Management Dashboard</h5>
+                                            <h5 className="card-title font-bold">Trello Clone</h5>
                                             
                                             <div className='flex logo-holder justify-center mb-4'>
                                                 <img className='logos flex' src={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'} alt="react" fluid/>
