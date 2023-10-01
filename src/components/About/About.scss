@@ -1,20 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700&family=Roboto:wght@400;700&family=Ubuntu:wght@400;500&display=swap');
 
-// #about{
+#about{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 14rem;
+    padding-bottom: 14rem;
 
     
-
-//     .about-paragraph{
-//         margin: auto;
-//         width: 60%;
-//         position: relative;
         
 //     }
-    
-// }
+ 
+}
 
 .img-holder{
     
-    background-color: floralwhite;
+    background-color: #fffaf0;
     border-radius: 10px;
     border: 1px solid #ffca28;
     margin-bottom: 4px;

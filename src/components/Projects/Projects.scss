@@ -1,3 +1,4 @@
+
 .container{
         margin-bottom: 40px;
         width: 70%;
@@ -22,7 +23,7 @@
            
             .card-body{
 
-                padding: 2px;
+                //padding: 2px;
                 
                 .btn{
                     font-size: 12px;
@@ -35,7 +36,7 @@
                 .logo-holder{
                     display: flex;
                     flex-wrap: wrap;
-                    gap: 10px;
+                    // gap: 10px;
                     
                    
 
@@ -59,6 +60,8 @@
 footer{
     display: flex;
     justify-content: center;
+    background: linear-gradient(336deg, #ffd6ca, #f6b4ef, #eaafcc, #f6e2d3) !important;
+
     
     p a i{
         color: black;

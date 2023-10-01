@@ -4,6 +4,7 @@ import quiz from '../../assets/img/quiz.JPG';
 import sketch from '../../assets/img/sketch.JPG';
 import taskflow from '../../assets/img/trello-clone-capture.JPG';
 import {Card} from 'react-bootstrap';
+import { motion } from "framer-motion";
 import 'font-awesome/css/font-awesome.min.css';
 
 export const Projects = () => {
@@ -15,14 +16,27 @@ export const Projects = () => {
             <div className='flex mx-auto w-full justify-end items-center page-number absolute h-5 z-0'>
                     <p className='flex font-bold text-[#a09881] text-[50px] px-5'>04</p>
             </div>
-            <section className='my-3 lg:pb-48 py-28 bg-[#fffaf0]' id="projects">
+            <section className='my-3 lg:pb-54 py-28 bg-[#fffaf0]' id="projects">
 
                 <div className="align-center">
                     <h1 className='lh-lg text-sm text-[#Ff3131] pb-5'>Projects</h1>
                     <div className="container">
                         <div className="flex flex-wrap">
                     
+                                
                                 <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-4">
+
+                                    <motion.div
+                                    initial={{ opacity: 0.6 }}
+                                    whileHover={{
+                                      scale: 1.2,
+                                      transition: { duration: 0.5 },
+                                    }}
+                                    whileTap={{ scale: 0.8 }}
+                                    whileInView={{ opacity: 1 }}
+                                    
+                                    
+                                    >
                                     <Card className="card mb-[10px]">
                                         <img className='card-img-top' src={taskflow} alt=""/>
                                         <div className="card-body">
@@ -39,9 +53,22 @@ export const Projects = () => {
                                             <a href="https://github.com/RushdaAnsari" className="btn btn-success btn-sm" target='_blank'><i className='fa-brands fa-github mx-1'></i>GitHub</a>
                                         </div>
                                     </Card>
-                                </div>   
+                                    </motion.div> 
 
+                                </div>   
+                                
+
+                                
                                 <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-4">
+                                    <motion.div
+                                        initial={{ opacity: 0.6 }}
+                                        whileHover={{
+                                        scale: 1.2,
+                                        transition: { duration: 0.5 },
+                                        }}
+                                        whileTap={{ scale: 0.8 }}
+                                        whileInView={{ opacity: 1 }}
+                                        >
                                     <Card className="card mb-[10px]">
                                         <img className='card-img-top' src={quiz}/>
                                         <div className="card-body">
@@ -57,9 +84,19 @@ export const Projects = () => {
                                             <a href="https://github.com/RushdaAnsari" className="btn btn-success btn-sm" target='_blank'><i className='fa-brands fa-github mx-1'></i>GitHub</a>
                                         </div>
                                     </Card>
+                                    </motion.div>
                                 </div>   
                             
                                 <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-4">
+                                <motion.div
+                                    initial={{ opacity: 0.6 }}
+                                    whileHover={{
+                                      scale: 1.2,
+                                      transition: { duration: 0.5 },
+                                    }}
+                                    whileTap={{ scale: 0.8 }}
+                                    whileInView={{ opacity: 1 }}
+                                    >
                                     <Card className="card mb-[10px]">
                                         <img className='card-img-top' src={sketch} alt=""/>
                                         <div className="card-body">
@@ -74,9 +111,19 @@ export const Projects = () => {
                                             <a href="https://github.com/RushdaAnsari" className="btn btn-success btn-sm" target='_blank'><i className='fa-brands fa-github mx-1'></i>GitHub</a>
                                         </div>
                                     </Card>
+                                    </motion.div>
                                 </div>   
                             
                                 <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-4">
+                                <motion.div
+                                    initial={{ opacity: 0.6 }}
+                                    whileHover={{
+                                      scale: 1.2,
+                                      transition: { duration: 0.5 },
+                                    }}
+                                    whileTap={{ scale: 0.8 }}
+                                    whileInView={{ opacity: 1 }}
+                                    >
                                     <Card className="card mb-[10px]">
                                         <img className="card-img-top" src={calculator} alt="" />
                                         <div className="card-body">
@@ -91,6 +138,7 @@ export const Projects = () => {
                                             <a href="https://github.com/RushdaAnsari" className="btn btn-success btn-sm" target='_blank'><i className='fa-brands fa-github mx-1'></i>GitHub</a>
                                         </div>
                                     </Card>
+                                </motion.div>
                                 </div>    
                             
                                 
