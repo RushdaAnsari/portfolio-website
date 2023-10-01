@@ -3,8 +3,9 @@
 Designed and created this portfolio website using:
 - JSX
 - React JS 
-- Bootstrap
-- Tailwind CSS.  
+- React Bootstrap
+- Tailwind CSS 
 - Sass
+- Framer Motion
 
-Demo
+[Live Demo](https://rushdaansari.github.io/portfolio-website/)
