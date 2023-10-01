@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.e2e69aa1.css",
-    "main.js": "/portfolio-website/static/js/main.56d32896.js",
+    "main.css": "/portfolio-website/static/css/main.8d3b5097.css",
+    "main.js": "/portfolio-website/static/js/main.2853a2dd.js",
     "static/js/787.28cb0dcd.chunk.js": "/portfolio-website/static/js/787.28cb0dcd.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio-website/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fa-solid-900.ttf": "/portfolio-website/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
@@ -24,12 +24,12 @@
     "static/media/fa-v4compatibility.ttf": "/portfolio-website/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
     "static/media/fa-v4compatibility.woff2": "/portfolio-website/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/portfolio-website/index.html",
-    "main.e2e69aa1.css.map": "/portfolio-website/static/css/main.e2e69aa1.css.map",
-    "main.56d32896.js.map": "/portfolio-website/static/js/main.56d32896.js.map",
+    "main.8d3b5097.css.map": "/portfolio-website/static/css/main.8d3b5097.css.map",
+    "main.2853a2dd.js.map": "/portfolio-website/static/js/main.2853a2dd.js.map",
     "787.28cb0dcd.chunk.js.map": "/portfolio-website/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2e69aa1.css",
-    "static/js/main.56d32896.js"
+    "static/css/main.8d3b5097.css",
+    "static/js/main.2853a2dd.js"
   ]
 }
