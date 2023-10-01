@@ -18,7 +18,7 @@ export const NavBar = () => {
                             <Container className='mb-0 w-full'>
                               <Navbar.Toggle aria-controls="basic-navbar-nav" />
                               <Navbar.Collapse id="basic-navbar-nav" className='flex items-center'>
-                                <Nav className="flex mt-2 mx-auto lg:gap-5">
+                                <Nav className=" flex mt-2 mx-auto lg:gap-5">
                                   <NavLink href='#home' className= 'nav-link'>Home</NavLink>
                                   <NavLink href='#about' className= 'nav-link'>About</NavLink>
                                   <NavLink href='#techstack' className= 'nav-link'>Skills</NavLink>
