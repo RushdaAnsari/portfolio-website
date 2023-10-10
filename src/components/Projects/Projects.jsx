@@ -1,5 +1,5 @@
 import './Projects.scss';
-import calculator from '../../assets/img/calculator.JPG';
+import portfolio from '../../assets/img/portfolio.JPG';
 import weather from '../../assets/img/weather-app.JPG';
 import sketch from '../../assets/img/sketch.JPG';
 import taskflow from '../../assets/img/trello-clone-capture.JPG';
@@ -32,7 +32,7 @@ export const Projects = () => {
                                       scale: 1.2,
                                       transition: { duration: 0.5 },
                                     }}
-                                    whileTap={{ scale: 0.8 }}
+                                    
                                     whileInView={{ opacity: 1 }}
                                     
                                     
@@ -66,7 +66,6 @@ export const Projects = () => {
                                         scale: 1.2,
                                         transition: { duration: 0.5 },
                                         }}
-                                        whileTap={{ scale: 0.8 }}
                                         whileInView={{ opacity: 1 }}
                                         >
                                     <Card className="card mb-[10px]">
@@ -86,6 +85,36 @@ export const Projects = () => {
                                     </Card>
                                     </motion.div>
                                 </div>   
+
+                                <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-4">
+                                <motion.div
+                                    initial={{ opacity: 0.6 }}
+                                    whileHover={{
+                                      scale: 1.2,
+                                      transition: { duration: 0.5 },
+                                    }}
+                                    
+                                    whileInView={{ opacity: 1 }}
+                                    >
+                                    <Card className="card mb-[10px]">
+                                        <img className="card-img-top" src={portfolio} alt="" />
+                                        <div className="card-body">
+                                            <h5 className="card-title other font-bold">Portfolio Website</h5>
+                                            
+                                            <div className=' flex logo-holder justify-center mb-4'>
+                                                <img className='logos flex' src={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'} alt="react" fluid/>
+                                                <img className='logos flex' src={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg'} alt="sass" fluid/>
+                                                <img className='logos flex' src={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg'} alt="bootstrap" fluid/>
+                                                <img className='logos flex' src={'https://www.svgrepo.com/show/374118/tailwind.svg'} alt="tailwindCSS" fluid/>
+                                                <img className='logos flex' src={'https://www.svgrepo.com/show/445780/framer.svg'} alt="framer" fluid/>
+                                                
+                                            </div>
+                                            {/* <a href="" className="btn btn-outline-secondary btn-sm mx-1" target='_blank'><i>Demo</i></a> */}
+                                            <a href="https://github.com/RushdaAnsari/portfolio-website" className="btn btn-success btn-sm" target='_blank'><i className='fa-brands fa-github mx-1'></i>GitHub</a>
+                                        </div>
+                                    </Card>
+                                </motion.div>
+                                </div>    
                             
                                 <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-4">
                                 <motion.div
@@ -94,7 +123,7 @@ export const Projects = () => {
                                       scale: 1.2,
                                       transition: { duration: 0.5 },
                                     }}
-                                    whileTap={{ scale: 0.8 }}
+                                   
                                     whileInView={{ opacity: 1 }}
                                     >
                                     <Card className="card mb-[10px]">
@@ -114,32 +143,7 @@ export const Projects = () => {
                                     </motion.div>
                                 </div>   
                             
-                                <div className="w-full md:w-1/2 lg:w-1/4 px-3 mb-4">
-                                <motion.div
-                                    initial={{ opacity: 0.6 }}
-                                    whileHover={{
-                                      scale: 1.2,
-                                      transition: { duration: 0.5 },
-                                    }}
-                                    whileTap={{ scale: 0.8 }}
-                                    whileInView={{ opacity: 1 }}
-                                    >
-                                    <Card className="card mb-[10px]">
-                                        <img className="card-img-top" src={calculator} alt="" />
-                                        <div className="card-body">
-                                            <h5 className="card-title other font-bold">Calculator</h5>
-                                            
-                                            <div className=' flex logo-holder justify-center mb-4'>
-                                                <img className='logos flex' src={'https://www.svgrepo.com/show/353884/html-5.svg'} alt="html" fluid/>
-                                                <img className='logos flex' src={'https://www.svgrepo.com/show/353623/css-3.svg'} alt="css"fluid/>
-                                                <img className='logos flex' src={'https://www.svgrepo.com/show/373705/js-official.svg'} alt="js" fluid/>
-                                            </div>
-                                            <a href="https://rushdaansari.github.io/javascript-calculator/" className="btn btn-outline-secondary btn-sm mx-1" target='_blank'><i>Demo</i></a>
-                                            <a href="https://github.com/RushdaAnsari/javascript-calculator" className="btn btn-success btn-sm" target='_blank'><i className='fa-brands fa-github mx-1'></i>GitHub</a>
-                                        </div>
-                                    </Card>
-                                </motion.div>
-                                </div>    
+                                
                             
                                 
                         </div>  
