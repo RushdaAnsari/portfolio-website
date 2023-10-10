@@ -107,6 +107,18 @@ export const TechStack = () => {
                 animate={{ x: 0 }}
                 transition={{ ease: "easeOut", duration: 2, delay: 0.0}}
                 whileInView={{ opacity: 1 }}
+               
+                >
+                    <div className="img-holder">
+                    <img className='icon' src={'https://www.svgrepo.com/show/445780/framer.svg'} alt="Framer-Motion" fluid/>
+                        <span className='caption lg:text-[13px] sm:text-[11px]'>Framer-Motion</span>
+                    </div>
+                </motion.div> 
+                <motion.div
+                initial={{ opacity: 0, x: -150 }}
+                animate={{ x: 0 }}
+                transition={{ ease: "easeOut", duration: 2, delay: 0.0}}
+                whileInView={{ opacity: 1 }}
                 
                 >
                     <div className="img-holder">
