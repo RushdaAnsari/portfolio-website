@@ -1,6 +1,6 @@
 import './Projects.scss';
 import calculator from '../../assets/img/calculator.JPG';
-import quiz from '../../assets/img/quiz.JPG';
+import weather from '../../assets/img/weather-app.JPG';
 import sketch from '../../assets/img/sketch.JPG';
 import taskflow from '../../assets/img/trello-clone-capture.JPG';
 import {Card} from 'react-bootstrap';
@@ -50,7 +50,7 @@ export const Projects = () => {
                                                 <img className='logos flex' src={'https://www.svgrepo.com/show/452077/npm.svg'} alt="npm"/>
                                             </div>
                                             <a href="https://rushdaansari.github.io/trello-clone/" className="btn btn-outline-secondary btn-sm mx-1" target='_blank'><i>Demo</i></a>
-                                            <a href="https://github.com/RushdaAnsari" className="btn btn-success btn-sm" target='_blank'><i className='fa-brands fa-github mx-1'></i>GitHub</a>
+                                            <a href="https://github.com/RushdaAnsari/trello-clone" className="btn btn-success btn-sm" target='_blank'><i className='fa-brands fa-github mx-1'></i>GitHub</a>
                                         </div>
                                     </Card>
                                     </motion.div> 
@@ -70,18 +70,18 @@ export const Projects = () => {
                                         whileInView={{ opacity: 1 }}
                                         >
                                     <Card className="card mb-[10px]">
-                                        <img className='card-img-top' src={quiz}/>
+                                        <img className='card-img-top' src={weather}/>
                                         <div className="card-body">
-                                            <h5 className="card-title other font-bold">Quiz App</h5>
+                                            <h5 className="card-title other font-bold">Weather App</h5>
                                         
                                             <div className='flex logo-holder justify-center mb-4'>
-                                                <img className='logos flex' src={'https://www.svgrepo.com/show/353884/html-5.svg'} alt="html" fluid/>
-                                                <img className='logos flex' src={'https://www.svgrepo.com/show/353623/css-3.svg'} alt="css"fluid/>
+                                                <img className='logos flex' src={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'} alt="react" fluid/>
                                                 <img className='logos flex' src={'https://www.svgrepo.com/show/373705/js-official.svg'} alt="js" fluid/>
-                                                <img className='logos flex' src={'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg'} alt="bootstrap" fluid/>
+                                                <img className='logos flex' src={'https://www.svgrepo.com/show/445780/framer.svg'} alt="framer" fluid/>
+                                                <img className='logos flex' src={'https://www.svgrepo.com/show/452077/npm.svg'} alt="npm"/>
                                             </div>
-                                            <a href="https://rushdaansari.github.io/javascript-quiz-app/" className="btn btn-outline-secondary btn-sm mx-1" target='_blank'><i>Demo</i></a>
-                                            <a href="https://github.com/RushdaAnsari" className="btn btn-success btn-sm" target='_blank'><i className='fa-brands fa-github mx-1'></i>GitHub</a>
+                                            <a href="https://rushdaansari.github.io/react-weather-app/" className="btn btn-outline-secondary btn-sm mx-1" target='_blank'><i>Demo</i></a>
+                                            <a href="https://github.com/RushdaAnsari/react-weather-app" className="btn btn-success btn-sm" target='_blank'><i className='fa-brands fa-github mx-1'></i>GitHub</a>
                                         </div>
                                     </Card>
                                     </motion.div>
@@ -108,7 +108,7 @@ export const Projects = () => {
                                                 <img className='logos flex' src={'https://www.svgrepo.com/show/373705/js-official.svg'} alt="js" fluid/>
                                             </div>
                                             <a href="https://rushdaansari.github.io/Etch-a-Sketch/" className="btn btn-outline-secondary btn-sm mx-1" target='_blank'><i>Demo</i></a>
-                                            <a href="https://github.com/RushdaAnsari" className="btn btn-success btn-sm" target='_blank'><i className='fa-brands fa-github mx-1'></i>GitHub</a>
+                                            <a href="https://github.com/RushdaAnsari/Etch-a-Sketch" className="btn btn-success btn-sm" target='_blank'><i className='fa-brands fa-github mx-1'></i>GitHub</a>
                                         </div>
                                     </Card>
                                     </motion.div>
@@ -135,7 +135,7 @@ export const Projects = () => {
                                                 <img className='logos flex' src={'https://www.svgrepo.com/show/373705/js-official.svg'} alt="js" fluid/>
                                             </div>
                                             <a href="https://rushdaansari.github.io/javascript-calculator/" className="btn btn-outline-secondary btn-sm mx-1" target='_blank'><i>Demo</i></a>
-                                            <a href="https://github.com/RushdaAnsari" className="btn btn-success btn-sm" target='_blank'><i className='fa-brands fa-github mx-1'></i>GitHub</a>
+                                            <a href="https://github.com/RushdaAnsari/javascript-calculator" className="btn btn-success btn-sm" target='_blank'><i className='fa-brands fa-github mx-1'></i>GitHub</a>
                                         </div>
                                     </Card>
                                 </motion.div>
