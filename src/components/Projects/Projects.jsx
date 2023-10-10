@@ -19,7 +19,7 @@ export const Projects = () => {
             <section className='my-3 lg:pb-54 py-28 bg-[#fffaf0]' id="projects">
 
                 <div className="align-center">
-                    <h1 className='lh-lg text-sm text-[#Ff3131] pb-5'>Projects</h1>
+                    <h1 className='lh-lg text-sm text-[#ff316b] pb-5 font-bold'>Projects</h1>
                     <div className="container">
                         <div className="flex flex-wrap">
                     

@@ -19,7 +19,7 @@ export const About = () => {
         >
 
 
-            <h1 className="text-sm text-[#Ff3131] mb-4">About</h1>
+            <h1 className="text-sm text-[#ff316b] mb-4 font-bold">About</h1>
             
                 <div className="about-paragraph relative mx-auto flex flex-col gap-2 lg:text-base sm:text-sm px-2 w-[60%]">
                 <p className='lh-base'>

@@ -11,7 +11,7 @@ export const TechStack = () => {
         </div>
         <section className='tool my-3 lg:pb-54' id="techstack">
             
-                <h1 className="text-sm text-[#Ff3131] mb-4">Tools & Technologies</h1>
+                <h1 className="text-sm text-[#ff316b] mb-4 font-bold">Tools & Technologies</h1>
                 <div className=' flex flex-wrap justify-center img-container lg:text-[13px]'>
 
                 <motion.div

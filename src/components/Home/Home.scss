@@ -1,11 +1,19 @@
 .body {
   background: linear-gradient(336deg, #ffd6ca, #f6b4ef, #eaafcc, #f6e2d3) !important;
+  font-family: FeFCrm2;
+    
+    .hi, .intro{
+      color: #fffaf0;
+      display: flex;
+      justify-content: center;
+    }
 
     
-
+    
     .custom-text{
       font-family: FeFCrm2;
-      color: #Ff3131;
+      color: #ff316b;
+      display: flex;
   }
 
 }
